@@ -34,6 +34,7 @@ const TodoComponent = () => (
       <input
         type="number"
         defaultValue={15}
+        step={15}
         min="1"
         max="480"
         className="outline-none"
@@ -80,9 +81,10 @@ export default function Home() {
         ref={supadayTodoRef}
       >
         <div className="flex flex-col gap-5 w-full">
-          <h2 className="text-4xl font-bold italic text-center">
-            {moment().format('dddd MMMM D, YYYY').toUpperCase()}
-          </h2>
+          <input
+            className="text-4xl font-bold italic text-center outline-none"
+            defaultValue={moment().format('dddd MMMM D, YYYY').toUpperCase()}
+          />
           <h1 className="text-8xl font-bold text-center">SUPADAY</h1>
           <input
             className="text-center outline-none uppercase font-semibold italic text-xl"
