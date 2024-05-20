@@ -1,9 +1,9 @@
 {
-  "name": "supaday-todo",
+  "name": "superday-todo-app",
   "version": "1.0.0",
-  "description": "Maximum productivity: Achieve more, work less, and enjoy life!",
+  "description": "Write, Edit, and Print-out your todo list!",
   "private": true,
-  "author": "FastStartup Developers <diaz@faststartup.io>",
+  "author": "Diaz Linggaputra",
   "license": "MIT",
   "engines": {
     "node": "18.x"
