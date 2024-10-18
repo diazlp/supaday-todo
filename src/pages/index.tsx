@@ -85,7 +85,10 @@ export default function Home() {
             className="text-4xl font-bold italic text-center outline-none"
             defaultValue={moment().format('dddd MMMM D, YYYY').toUpperCase()}
           />
-          <h1 className="text-8xl font-bold text-center">SUPADAY</h1>
+          <input
+            className="text-8xl font-bold text-center p-0 m-0 outline-none uppercase"
+            defaultValue={'SUPADAY'}
+          />
           <input
             className="text-center outline-none uppercase font-semibold italic text-xl"
             defaultValue={
