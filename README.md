@@ -16,11 +16,6 @@ Supaday Todo App is a simple React application that allows users to manage their
 - moment.js
 - react-to-print
 
-## Components
-
-- `Home`: Main component containing the todo list functionality.
-- `TodoComponent`: Represents an individual todo item.
-
 ## Usage
 
 1.  Clone the repository:
