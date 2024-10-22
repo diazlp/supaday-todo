@@ -13,7 +13,6 @@ Supaday Todo App is a simple React application that allows users to manage their
 - React
 - TypeScript
 - Tailwind CSS
-- moment.js
 - react-to-print
 
 ## Usage
